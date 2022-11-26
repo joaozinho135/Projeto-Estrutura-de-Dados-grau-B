@@ -5,7 +5,7 @@
 int main()
 {
 	int l, c, Mat[Lin][Col]; 
-    char estado[30];
+    char estado;
 	
 	FILE *arq_matriz;
 	arq_matriz = fopen("Matriz.txt", "r");
@@ -21,9 +21,12 @@ int main()
 	
     for(l=0;l<Lin;l++){
         for(c=0;c<Col;c++){
-            fscanf(arq_matriz,"%d ", &Mat[l][c]);
-            fgets(estado, 30, arq_eixos);    
-            printf("%d ", Mat[l][c]);//testar se a impressão esta correta
+        	while ((estado = fgetc(arq_eixos)) !=EOF) {
+			printf("%c", estado);
+		}
+			
+            fscanf(arq_matriz,"%d ", &Mat[l][c]);  
+            printf("%d ", Mat[l][c]);//testar se a impressão esta corret         
     }
     printf("\n");
     }

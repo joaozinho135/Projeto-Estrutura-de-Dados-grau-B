@@ -1,11 +1,11 @@
-Rio Grande do Sul 
-Sao Paulo 
-Bahia 
-Minas Gerais
-Amapa
-Santa Catarina
-Rondonia 
-Mato Grosso 
-Roraima
-Pernambuco 
+P1  Rio Grande do Sul 
+P2  Sao Paulo 
+P3  Bahia 
+P4  Minas Gerais
+P5  Amapa
+P6  Santa Catarina
+P7  Rondonia 
+P8  Mato Grosso 
+P9  Roraima
+P10 Pernambuco 
 
